@@ -1,0 +1,289 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pixer</title>
+</head>
+
+<body>
+    <nav class="navbar_head">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+        </div>
+        <div class="nav_links">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li class="message"><a><img src="assets/images/message.png"></a></li>
+                <li class="contact"><button>Contact</button></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner_overall">
+        <div class="container">
+            <div class="banner_inner_sec">
+                <div class="creative_sec">
+                    <h4>For All Your<span> Creative Projects</span> </h4>
+                    <p>A successful, award winning design team that
+                        will help you with all your creative tasks. From websites, apps to branding, we got you covered!
+                    </p>
+                    <button>Reach Us</button>
+                </div>
+                <div class="banner_img_sec">
+                    <img src="/assets/images/banner.png" alt="banner">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service_section">
+        <div class="container">
+            <div class="servie_overall">
+                <h2>Our Services</h2>
+                <div class="servie_tab">
+                    <button class="servicelinks" onclick="tabFn(event, 'professional')" id="defaultOpen">IT
+                        Professional</button>
+                    <button class="servicelinks" onclick="tabFn(event, 'personal')">personal</button>
+                </div>
+
+                <div id="professional" class="servicecontent">
+                    <p class="pro_para">Best for active freelancers and designers who need more
+                        projects and premium features. Export your code and unlock more pages for your unhosted
+                        projects.</p>
+                    <div class="service_content">
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/one.png">
+                            <h3>Logo</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/two.png">
+                            <h3>Poster</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/three.png">
+                            <h3>Brochure</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/four.png">
+                            <h3>Poster</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/five.png">
+                            <h3>Custom Object Design</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/six.png">
+                            <h3>Flyers</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="personal" class="servicecontent">
+                    <p class="pro_para">Best for active freelancers and designers who need more
+                        projects and premium features. Export your code and unlock more pages for your unhosted
+                        projects.</p>
+                    <div class="service_content">
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/one.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/two.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/three.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/four.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/five.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/six.png">
+                            <h3>Website UI</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer_section">
+        <div class="container">
+            <div class="zone_overall">
+                <div class="offer_content">
+                    <h4>We offer a full range of <span> Design services</span> </h4>
+                    <p>Latin words, combined with a handful of model sentence structures,
+                        to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always
+                        free.</p>
+                    <button>Reach US</button>
+                </div>
+                <div class="offer_img">
+                    <img src="assets/images/offer.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bunch_section">
+        <div class="container">
+            <div class="bunch_overall">
+                <div class="bunch_img">
+                    <img src="assets/images/bunch.png">
+                </div>
+                <div class="bunch_content">
+                    <div class="bunch_iner">
+                        <h4>Bunch of Great Layouts and <span> Web Templates</span> </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation,</p>
+                        <button>Get Started now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_work">
+        <h3>Our Works</h3>
+        <div class="our_works">
+            <div class="work_content">
+                <div class="work_content_inner">
+                    <img src="assets/images/work_logo.png">
+                    <p>Pixel Painters is a Chennai-based Painting company specializing in Big Buildings.
+                        We take your idea and transform</p>
+                </div>
+            </div>
+            <div class="work_img">
+                <img src="assets/images/works.png">
+            </div>
+        </div>
+    </section>
+    <section class="itc_section">
+        <div class="container">
+            <div class="itc_overall">
+                <div class="itc_img">
+                    <img src="assets/images/itc.png">
+                </div>
+                <div class="itc_content">
+                    <img src="assets/images/itc_logo.png">
+                    <p>Pixel Painters is a Chennai-based Painting company
+                        specializing in Big Buildings. We take your idea and transform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video_section">
+        <img src="assets/images/video.png">
+    </section>
+    <section class="buisness_section">
+        <div class="business_content">
+            <p>Build your successful business with us. Want to know how to do this?</p>
+            <button>Contact us</button>
+        </div>
+
+    </section>
+    <section class="testimonial">
+        <h3>Client's Testimonial</h3>
+        <div class="testimonial_overall">
+            <div class="testi_content">
+                <h6>Nitish</h6>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+            </div>
+            <img src="assets/images/testi.png">
+        </div>
+    </section>
+    <section class="contact-us">
+        <div class="container">
+            <div class="contact_overall">
+                <div class="contact_content">
+                    <h3>Bunch of Great Layouts and <span> Web Templates</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magn</p>
+                    <form class="contact-form">
+                        <span> <input type="text" placeholder="Your Name"> </span>
+                        <span><input type="email" placeholder="Your email"> </span>
+                        <span><textarea type="text" placeholder="Message"></textarea></span>
+                        <button type="submit"> Submit</button>
+                    </form>
+                </div>
+                <div class="contact_img">
+                    <img src="assets/images/contact.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="container">
+            <div class="foot_overall">
+                <div class="foot_content">
+
+                    <div class="contect_inner">
+                        <h6>Contacts</h6>
+                        <div class="contact_imgs"><img src="assets/images/headset.png"></div>
+                        <div class="contact_number">
+                            <ul>
+                                <p>Have questions?</p>
+                                <li><a>+91 9841 600 980</a></li>
+                                <li><a>+91 8148 331 218</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot_links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a>About company</a></li>
+                        <li><a>Our services</a></li>
+                        <li><a>Team members</a></li>
+                        <li><a>Works</a></li>
+                    </ul>
+                </div>
+                <div class="foot_testi">
+                    <ul>
+                        <li><a>About company</a></li>
+                        <li><a>Works</a></li>
+                    </ul>
+                </div>
+                <div class="foot_logo">
+                    <img src="assets/images/logo.png">
+                </div>
+            </div>
+           <div class="copy">
+            <p>Copyright © 2020 pixor.in. All rights reserved.</p>
+           </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="/js/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
